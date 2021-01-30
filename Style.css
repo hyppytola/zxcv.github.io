@@ -1,0 +1,369 @@
+@font-face{
+  font-family:helvetica_neue;
+  src: url(http://josh-ruther4d.com/Fonts/HelveticaNeueLite.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+body{
+  background:white;
+  text-shadow:1px 1px rgba(255,255,255,0.8);
+}
+.avi{
+  width: 170px;
+  height: 150px;
+}
+.form{
+  width:500px;
+  height:500px;
+  background:#fdfdfd;
+padding:20px;
+margin-left:auto;
+margin-right:auto;
+  margin-top:55px;
+border:1px solid #f3e8fa;
+box-shadow:0px 0px 13px rgba(50, 50, 50, .8);
+}
+form{
+  width:175px;
+  margin-left:100px;
+  margin-right:auto;
+}
+input[type=text]{
+  width:300px;
+  height:35px;
+  margin-top:10px;
+  padding-left:2px;
+  color:#ccbddf;
+  background: #efefef; 
+border-radius: 5px;
+border-top:1px solid #c5c5c5;
+border-bottom:2px solid rgba(255,255,255,.6);
+border-left:none;
+border-right:none;
+}
+input[type=submit]{
+  color: #838383;
+  text-shadow:1px 1px rgba(255,255,255,0.7);
+  font-size:16px;
+  height: 45px;
+  width:80px;
+  text-align:center;
+  display:block;
+  margin-left:100px;
+  margin-right:auto;
+  margin-top:22px;
+  text-shadow: 0 1px white;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid;
+border-radius: 5px;
+  border-color: #cfcfcf;
+}
+.log{
+  z-index: 2;
+  margin-top: 22px;
+  margin-left:125px;
+  margin-right:20px;
+  color: #404040:
+  background: transparent;
+  border-color: #ccc;
+  border-width: 3px;
+  width: 60px;
+  height: 30px;
+  text-align: 16px;
+}
+.recovery{
+  margin-top:30px;
+}
+.form:before, .form:after{
+  content: " ";
+  z-index:-1;
+  height: 500px;
+  background: #fafafa;
+  position: absolute;
+  width: 500px;
+  margin-top:50px;
+  padding:25px;
+}
+.form:before{
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  margin-left:50%;
+  top:5px;
+  left:-280px;
+  transform: rotate(98deg);
+  -webkit-transform:rotate(88deg);
+}
+.form:after{
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  margin-right:50%;
+  top:5px;
+  right:-270px;
+  transform: rotate(95deg);
+}
+.registr {
+    font-family:helvetica_neue;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.container {
+    width:1040px;
+    height: auto;
+    margin: 0px auto;
+    background-color:#f8efef;
+}
+.header {
+    background-color:d4a5a5;
+    width:1040px;
+    height:75px;
+}
+nav {
+  display: block;
+  width: 660px;
+  margin: 0 auto 30px;
+}
+.menu {
+  list-style: none;
+  margin: 0px 0 5px;
+  padding: 25px 0 5px;
+  text-align: right;
+}
+.menu li {display: inline-block;}
+.menu li:after {
+  content: "|";
+  color: #221f3b;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu li:last-child:after {content: none;}
+.menu a {
+  text-decoration: none;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu a, 
+.menu a:visited {color: #ebebeb;}
+.menu a.current, 
+.menu a:hover{color: #221f3b;}
+.menu a:before,
+.menu a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #ebebeb;
+  transition: .8s;
+}
+.menu a:hover:before, 
+.menu-main .current:before {left: 0;}
+.menu a:hover:after, 
+.menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu {padding-top: 0;}
+.menu li {display: block;}
+.menu li:after {content: none;}
+.menu a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+    
+}
+
+.one {
+    width: 840px;
+    height: 800px;
+    background-color: #cde7e7;
+    margin: auto auto;
+    border-radius: 20px;
+	border:1px solid black;
+	box-shadow: 0 0 2px 1px;
+}
+.img {
+	margin-top: 80px;
+	margin-left: 40px;
+	width: 470px;
+	height: 630px;	
+	border-radius:100px;
+	box-shadow: 0 0 1px 1px;
+}
+.abMe {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Prompt', sans-serif;
+}
+.aa {
+	position: relative;
+	margin-bottom: 0px;
+	padding-bottom:0px;
+	padding-top:300px;
+	text-align: center;
+}
+.hob {
+	width: 800px;
+    height: 350px;
+    background-color: cde7e7;
+    margin: auto auto;
+    border-radius: 10px;
+	font-size: 20px;
+	border:2px solid black;
+	margin-top: 50px;
+}
+.hobbb{
+	text-align:center;
+}
+.imgS {
+	width: 130px;
+	height: 140px;
+	border:1px solid black;
+	margin: 20px;
+	margin-left: 40px;
+}
+.imgD {
+	width: 130px;
+	height: 140px;
+	border:1px solid black;
+	margin: 50px;
+}
+.imgDs {
+	width: 130px;
+	height: 140px;
+	border:1px solid black;
+	margin: 20px;
+}
+.imgA {
+	width: 130px;
+	height: 140px;
+	border:1px solid black;
+	margin: 50px;
+}
+.imgB {
+	width: 130px;
+	height: 140px;
+	border:1px solid black;
+	margin:20px;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.addss {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+  color: #d4a5a5;
+  width: 48px;
+  height: 48px;
+  margin: 30px 18px 5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #d4a5a5;
+  float: left;
+  border-radius: 30px;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.inputAdd {
+  float: left;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 16px;
+  color: #d4a5a5;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .myNum,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}
+.send {
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+.ff {
+	margin-top: 50px;
+	margin-left: 100px;
+	padding-left: 100px;
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.lab {
+	font-size:20px;
+	font-family: 'Prompt', sans-serif;
+}
+.txt {
+	text-align: center;
+	width: 300px;
+	height: 25px;
+	background-color: white;
+	
+}
+.txt2 {
+	width:300px;
+	height: 50px;
+}
+.msg {
+	text-align: center;
+	margin-left: 10px;
+}
+.line {
+	text-align: center;
+	width: 900px;
+	border-top-width: 10px;
+	border-top-style: dotted;
+	color: #d4a5a5;
+	margin-left: 70px;
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+.line1 {
+	text-align: center;
+	width: 900px;
+	border-top-width: 10px;
+	border-top-style: dotted;
+	color: #d4a5a5;
+	margin-left: 70px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	padding-bottom: 90px;
+}
+.ddd{
+	text-align: center;
+	padding-bottom: 90px;
+	font-family: 'Prompt', sans-serif;
+}
